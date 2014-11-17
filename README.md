@@ -1,4 +1,4 @@
-octoblu-monitor
+Octoblu Dashboard
 ===============
 
-Octoblu powered monitor / status / widgets
+Octoblu powered monitor / status / widgets / messages

@@ -1,0 +1,29 @@
+{
+  "name": "octoblu-monitor",
+  "version": "1.0.0",
+  "description": "Octoblu monitor",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peterdemartini/octoblu-monitor.git"
+  },
+  "keywords": [
+    "Status",
+    "Widgets",
+    "Monitor",
+    "Octoblu",
+    "Meshblu"
+  ],
+  "author": "Peter DeMartini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdemartini/octoblu-monitor/issues"
+  },
+  "homepage": "https://github.com/peterdemartini/octoblu-monitor",
+  "dependencies": {
+    "express": "~4.10.2"
+  }
+}
