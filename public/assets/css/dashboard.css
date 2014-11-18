@@ -1,20 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 
-body {
-  padding-top: 60px;
-}
-
 .current-time, .current-date {
 	font-family: 'Abel', sans-serif;
 }
-
 .current-time {
-  font-size: 10vw;
-  position: relative;
-  top: -60px;
+	font-size: 100px;
 }
 .current-date {
-  font-size: 3vw;
-  color: grey;
-  padding-right: 20px;
+	font-size: 20px;
+  color: gray;
 }

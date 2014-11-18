@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Octoblu Dashboard</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/dashboard.css">
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Octoblu Dashboard</a>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-lg-6">
+				<div ui-view="date-time"></div>
+			</div>
+			<div class="col-xs-12 col-lg-6">
+				<div ui-view="status"></div>
+			</div>
+		</div>
+		<div ui-view="messages"></div>
+	</div>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/angular/angular.min.js"></script>
+	<script src="/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/app/app.js"></script>
+	<script src="/app/dashboard-controller.js"></script>
+	<script src="/app/date-time-controller.js"></script>
+	<script src="/app/messages-controller.js"></script>
+	<script src="/app/status-controller.js"></script>
+	<script src="/app/init.js"></script>
+</body>
+</html>
