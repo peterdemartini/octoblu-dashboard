@@ -1,10 +1,13 @@
-var express = require('express');
-var app = express();
-var fs = require('fs');
+var express    = require('express');
+var bodyParser = require('body-parser');
+var app        = express();
+var fs         = require('fs');
 
 var meshbluConfigFile = __dirname + '/meshblu.json';
 
 app.use(express.static(__dirname + '/public'));
+
+app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
@@ -14,16 +17,16 @@ app.post('/credentials', function(req, res) {
   var meshbluConfig = req.body;
   fs.writeFile(meshbluConfigFile, JSON.stringify(meshbluConfig), function(err) {
     if (err) {
-      res.send(500);
+      res.status(500).end();
     } else {
-      res.send(201);
+      res.status(201).end();
     }
   });
 });
 
 app.get('/credentials', function(req, res) {
-  var meshbluConfig = require(meshbluConfigFile);
-  res.send(meshbluConfig);
+  var meshbluConfig = fs.readFileSync(meshbluConfigFile, 'utf8');
+  res.json(JSON.parse(meshbluConfig));
 });
 
 app.listen(3300);

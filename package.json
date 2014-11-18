@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/peterdemartini/octoblu-monitor",
   "dependencies": {
-    "express": "~4.10.2"
+    "express": "~4.10.2",
+    "body-parser": "~1.9.2"
   }
 }
