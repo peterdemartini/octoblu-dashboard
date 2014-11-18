@@ -22,7 +22,7 @@ angular.module('octobluDashboard')
 		}, 60 * 1000);
 
 		meshbluService.getConnection(function(conn, creds){
-			$scope.meshbluUUID = creds.uuid;
+			$scope.meshbluCreds = creds;
 			conn.status(function(data){
 				$scope.meshbluWSStatus = handleResponse(data);
 			});

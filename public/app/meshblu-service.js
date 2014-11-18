@@ -18,6 +18,10 @@ angular.module('octobluDashboard')
     self.start = function(resolve, reject) {
       self.getCredentials()
         .then(function(creds) {
+        	if(conn){
+        		resolve(conn);
+        		return;
+        	}
           conn = skynet.createConnection(creds);
           conn.on('ready', function(data) {
             console.log('Connected to Meshblu', data);
