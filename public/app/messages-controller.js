@@ -12,6 +12,7 @@ angular.module('octobluDashboard')
 			}
 			$scope.$apply();
 		}
+
 		meshbluService.getConnection(function(conn){
 			conn.on('message', function(message){
 				addMessage(message.payload);

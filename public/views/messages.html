@@ -1,5 +1,5 @@
-<div class="row">
-	<div ng-repeat="message in messages" class="col-xs-12 col-lg-6 message">
+<div class="row" isotope-container="isotope-container">
+	<div ng-repeat="message in messages" class="col-xs-12 col-lg-6 message" isotope-item="isotope-item">
 		<div class="well">
 			<h2>{{ message.title }}</h2>
 			<p>{{ message.body }}</p>
