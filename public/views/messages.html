@@ -1,8 +1,8 @@
 <div class="row" isotope-container="isotope-container">
-	<div ng-repeat="message in messages" class="col-xs-12 col-lg-6 message" isotope-item="isotope-item">
-		<div class="well">
-			<h2>{{ message.title }}</h2>
-			<p>{{ message.body }}</p>
-		</div>
-	</div>
+  <div ng-repeat="message in messages track by $index" class="col-xs-6 col-lg-3 message" isotope-item="isotope-item">
+    <div class="well">
+      <h2>{{ message.title }}</h2>
+      <p>{{ message.body }}</p>
+    </div>
+  </div>
 </div>

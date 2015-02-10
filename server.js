@@ -25,8 +25,11 @@ app.post('/credentials', function(req, res) {
 });
 
 app.get('/credentials', function(req, res) {
-  var meshbluConfig = fs.readFileSync(meshbluConfigFile, 'utf8');
-  res.json(JSON.parse(meshbluConfig));
+  try{
+    res.json(require(meshbluConfigFile));
+  }catch(error){
+    console.error(error);
+  }
 });
 
 app.listen(3300);

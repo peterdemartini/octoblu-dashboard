@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ow",
+				"ownerUuids"
+			],
+			[
+				"ger",
+				"generalSearchController"
+			],
+			[
+				"s",
+				"searchQuery"
+			],
+			[
+				"qu",
+				"queryTemplate"
+			],
+			[
+				"ka",
+				"kinda-a-query"
+			],
+			[
+				"num",
+				"numberLost"
+			],
+			[
+				"numb",
+				"numberWon"
+			],
+			[
+				"per",
+				"person"
+			],
+			[
+				"de",
+				"defaultNumberOfGames"
+			],
+			[
+				"pers",
+				"personName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 206.0,
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"renin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssx bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insat",
+				"Package Control: Install Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/peter/Projects/PeterDeMartini/octoblu-dashboard"
+	],
+	"file_history":
+	[
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful/bad-the-definition.md",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful/the-bullshit-layer.md",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful/fucking-beautiful.md",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful/invincible.md",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful/about.md",
+		"/Users/peter/Projects/Octoblu/octoblu/app/models/topic-summary.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/test/models/topic-summary-spec.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/assets/json/elasticsearch/general-search.json",
+		"/Users/peter/Projects/Octoblu/octoblu/app/routes.js",
+		"/Users/peter/Projects/Octoblu/octoblu/test/models/general-search-spec.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/app/controllers/general-search-controller.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/app/models/general-search.coffee",
+		"/Users/peter/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/peter/Projects/Octoblu/octoblu/gulpfile.js",
+		"/Users/peter/Projects/Octoblu/octoblu/setup/groupUpdate.js",
+		"/Users/peter/Projects/Octoblu/octoblu/config/auth.js",
+		"/Users/peter/Projects/Octoblu/octoblu/setup/migrations/addupdate_smartthings.js",
+		"/Users/peter/Projects/Octoblu/octoblu/public/angular/directives/sparkline-graph-directive.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/bower/node_modules/retry/lib/retry_operation.js",
+		"/Users/peter/Projects/Octoblu/octoblu/README.md",
+		"/Users/peter/Projects/Octoblu/octoblu/app/controllers/topic-summary-controller.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/assets/json/elasticsearch/topic-summary.json",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/mongojs/test/test-optional-callback.js",
+		"/Users/peter/Projects/Octoblu/octoblu/config/tumblr.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/rest/node_modules/when/generator.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/when/generator.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/npm/lib/utils/gently-rm.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/mongoose/examples/globalschemas/gs_example.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/moment/lang/tl-ph.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/lib/Object/to-plain-object.js",
+		"/Users/peter/Projects/Octoblu/octoblu/public/angular/controllers/analyze-controller.coffee",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/bower/lib/util/analytics.js",
+		"/Users/peter/Projects/Octoblu/octoblu/public/pages/analyze.html",
+		"/Users/peter/Projects/Octoblu/octoblu/config/app-net.js",
+		"/Users/peter/Projects/Octoblu/octoblu/design/Admin Page Invitation.md",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/newrelic/test/lib/cross_agent_tests/rum_loader_insertion_location/incomplete_non_meta_tags.html",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/webdriverjs/lib/commands/getTabIds.js",
+		"/Users/peter/Projects/Octoblu/octoblu/config/github.js",
+		"/Users/peter/Projects/Octoblu/octoblu/app/controllers/elastic.js",
+		"/Users/peter/Projects/Octoblu/octoblu/node_modules/moment/tasks/embed_languages.js",
+		"/Users/peter/Projects/Octoblu/octoblu/.idea/encodings.xml",
+		"/Users/peter/Dropbox/Blogs/ghost-update.sh",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful.md/the-depths-of-a-memory.md",
+		"/Users/peter/Dropbox/Blogs/fucking-beautiful.md/moving-forward.md",
+		"/Users/peter/Projects/peter-is-better-than-aaron/README.md",
+		"/Users/peter/Projects/peter-is-better-than-aaron/run.coffee",
+		"/Users/peter/Projects/peter-is-better-than-aaron/lib/peter.coffee",
+		"/Users/peter/Projects/peter-is-better-than-aaron/lib/games/roulette.coffee",
+		"/Users/peter/Projects/peter-is-better-than-aaron/lib/games/blackjack.coffee",
+		"/Users/peter/Projects/peter-is-better-than-aaron/lib/roulette.coffee",
+		"/Users/peter/Projects/peter-is-better-than-aaron/package.json",
+		"/Users/peter/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"toUuid",
+			"the",
+			"sane-itize ",
+			"TopicSummary",
+			"toUuid",
+			"devicesUuids",
+			"checkUuid",
+			"message.",
+			"ins ",
+			"any",
+			"toUuid",
+			"uuids",
+			"device",
+			"devices",
+			"actualResult",
+			"filterDevices",
+			"Devices",
+			"devices",
+			"'",
+			"Devices",
+			"devices",
+			"analyze",
+			"topicSummaryController",
+			"TopicSummaryController",
+			"'kinda-a-query'",
+			"query",
+			"request",
+			"frog",
+			"g2",
+			"g1",
+			"lambert",
+			"zaboomafoo",
+			"?search_type=count",
+			"topic-summary",
+			"TopicSummary",
+			"not_analyzed",
+			"multi_field",
+			"topic_summary",
+			"TopicSummary",
+			"index",
+			"startingMoney",
+			"roulette",
+			"Aaron",
+			"*"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "octoblu-dashboard.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"routes",
+				"app/routes.js"
+			],
+			[
+				"topicsumm",
+				"test/models/topic-summary-spec.coffee"
+			],
+			[
+				"",
+				"app/models/general-search.coffee"
+			],
+			[
+				"topic-sum",
+				"assets/json/elasticsearch/topic-summary.json"
+			],
+			[
+				"genera",
+				"app/controllers/general-search-controller.coffee"
+			],
+			[
+				"topc",
+				"app/controllers/topic-summary-controller.coffee"
+			],
+			[
+				"anal",
+				"public/angular/controllers/analyze-controller.coffee"
+			],
+			[
+				"elas",
+				"app/controllers/elastic.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
